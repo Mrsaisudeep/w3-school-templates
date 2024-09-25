@@ -1,0 +1,52 @@
+*
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:30px;
+    height: 5vh;
+    width: 100%;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+.right{
+    padding: 20px;
+}
+.img1{
+    width:100%;
+    height: 100vh;
+}
+.proj{
+    font-size: 50px;
+    justify-content: center;
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+.row1,.row2{
+    display: flex;
+    position: relative;
+}
+.ele1 p,.ele2 p,.ele3 p ,.ele4 p{
+    position: absolute;
+    top:-20px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    border:1px solid black;
+    background-color: black;
+    color:white;
+}
+.img2,.img3,.img4,.img5{
+    padding: 10px;
+    height: 30vh;
+    width:100%;
+    margin: 10px;
+    
+}
+    
